@@ -1,11 +1,13 @@
+"use client"
 import React from 'react'
+import SearchBar from './components/SearchBar/SearchBar'
 
-const page = () => {
+export default function Page() {
   return (
     <div>
-      <h2 className='text-red-900 justify-content: center'>Ranjit Chuaudhary</h2>
+      <SearchBar />
     </div>
   )
 }
 
-export default page
+
